@@ -1,0 +1,58 @@
+/* Общие настройки сайта */
+
+body {
+  background-color: #f6f4f1;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Hero */
+
+#hero {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Заголовки */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2f3a3d;
+}
+
+/* Карточки */
+
+.card {
+  border: none;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Карточки при наведении */
+
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+
+/* Подвал */
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+}
+/* Единый ритм секций */
+
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* Улучшение читаемости текста */
+
+p {
+  font-size: 16.5px;
+}
