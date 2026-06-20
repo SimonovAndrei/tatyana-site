@@ -56,3 +56,20 @@ section {
 p {
   font-size: 16.5px;
 }
+
+/* Улучшение визуального ритма services страницы */
+
+#services .container {
+  max-width: 900px;
+}
+
+/* Более мягкие разделители */
+hr {
+  opacity: 0.15;
+}
+
+/* Чуть больше воздуха между блоками */
+section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
