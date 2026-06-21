@@ -89,56 +89,132 @@
       </div>
     </section>
 
-    <!-- Обо мне -->
+    <!-- ОБО МНЕ -->
     <section id="about" class="py-5">
       <div class="container">
-        <h2 class="text-center mb-4">Обо мне</h2>
+        <!-- Заголовок -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Обо мне</h2>
+          <p class="text-muted">
+            Психологическая работа, основанная на опыте, обучении и уважении к
+            личности человека
+          </p>
+        </div>
 
-        <p class="text-center mb-5">
-          Здесь будет размещена информация о Татьяне, её образовании, опыте и
-          подходе к работе.
-        </p>
+        <div class="row align-items-start g-5">
+          <!-- ПРАВАЯ КОЛОНКА (СМЫСЛ И ДОВЕРИЕ) -->
+          <div class="col-md-8">
+            <h4 class="fw-bold mb-3">
+              Я помогаю людям разбираться в сложных жизненных состояниях и
+              возвращать внутреннюю опору
+            </h4>
 
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Образование</h5>
+            <p>
+              В работе я опираюсь на сочетание классического психологического
+              консультирования, когнитивно-поведенческих подходов и современных
+              методов терапии.
+            </p>
+            <p>
+              Моя задача — не давать готовые советы, а помочь увидеть ситуацию
+              яснее, отделить тревожные мысли от реальности и найти собственные
+              решения, которые действительно подходят вашей жизни.
+            </p>
 
-                <p class="card-text">
-                  Информация об образовании будет добавлена позже.
-                </p>
-              </div>
-            </div>
-          </div>
+            <div class="p-4 bg-light rounded-4 mt-4">
+              <h5 class="fw-bold mb-3">Для меня важно в работе:</h5>
 
-          <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Опыт</h5>
-
-                <p class="card-text">
-                  Информация об опыте работы будет добавлена позже.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Подход к работе</h5>
-
-                <p class="card-text">
-                  Информация о методах и подходах будет добавлена позже.
-                </p>
-              </div>
+              <ul class="mb-0">
+                <li>Безопасное пространство без осуждения</li>
+                <li>Индивидуальный подход к каждому человеку</li>
+                <li>Уважение к личному опыту и темпу клиента</li>
+                <li>Бережная, но практическая работа с запросом</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- ОБРАЗОВАНИЕ -->
+    <section id="education" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Образование и квалификация</h2>
+
+          <p class="text-muted">
+            Профессиональная подготовка, переподготовка и регулярное повышение
+            квалификации
+          </p>
+        </div>
+
+        <!-- СЛАЙДЕР -->
+        <div
+          id="diplomaCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- 1. Бакалавр (ГЛАВНЫЙ) -->
+            <div class="carousel-item active text-center">
+              <img
+                src="img/diploma-bachelor.jpg"
+                class="img-fluid rounded-4 shadow"
+                style="max-height: 500px"
+                alt="Диплом бакалавра психологии"
+              />
+
+              <p class="mt-3 fw-bold">Бакалавр психологии</p>
+              <p class="text-muted">Московский институт психологии — 2017</p>
+            </div>
+
+            <!-- 2. Клиническая психология -->
+            <div class="carousel-item text-center">
+              <img
+                src="img/diploma-clinical.jpg"
+                class="img-fluid rounded-4 shadow"
+                style="max-height: 500px"
+                alt="Клиническая психология"
+              />
+
+              <p class="mt-3 fw-bold">Клиническая психология</p>
+              <p class="text-muted">Профессиональная переподготовка — 2018</p>
+            </div>
+
+            <!-- 3. Переподготовка 2026 -->
+            <div class="carousel-item text-center">
+              <img
+                src="img/diploma-2026.jpg"
+                class="img-fluid rounded-4 shadow"
+                style="max-height: 500px"
+                alt="Переподготовка 2026"
+              />
+
+              <p class="mt-3 fw-bold">Психологическое консультирование</p>
+              <p class="text-muted">Профессиональная переподготовка — 2026</p>
+            </div>
+          </div>
+
+          <!-- КНОПКИ -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#diplomaCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#diplomaCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
     <!-- С чем работаю -->
     <section id="services" class="py-5">
       <div class="container">
