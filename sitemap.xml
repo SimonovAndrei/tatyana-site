@@ -1,24 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://tatianayurieva.ru/</loc>
-  </url>
+    <!-- Главная страница -->
+    <url>
+        <loc>https://tatianayurieva.ru/</loc>
+        <lastmod>2026-06-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
-  <url>
-    <loc>https://tatianayurieva.ru/services.html</loc>
-  </url>
+    <!-- Услуги -->
+    <url>
+        <loc>https://tatianayurieva.ru/services.html</loc>
+        <lastmod>2026-05-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
 
-  <url>
-    <loc>https://tatianayurieva.ru/articles.html</loc>
-  </url>
+    <!-- Статьи -->
+    <url>
+        <loc>https://tatianayurieva.ru/articles.html</loc>
+        <lastmod>2026-07-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 
-  <url>
-    <loc>https://tatianayurieva.ru/faq.html</loc>
-  </url>
+    <!-- FAQ -->
+    <url>
+        <loc>https://tatianayurieva.ru/faq.html</loc>
+        <lastmod>2026-05-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
-  <url>
-    <loc>https://tatianayurieva.ru/article-anxiety.html</loc>
-  </url>
+    <!-- Статья: Синдром самозванца -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-impostor-syndrome.html</loc>
+        <lastmod>2026-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+
+    <!-- Статья: Как говорить нет -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-how-to-say-no.html</loc>
+        <lastmod>2026-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Статья: Тревога -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-anxiety.html</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Статья: Эмоциональное выгорание -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-burnout.html</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Статья: Самооценка -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-self-esteem.html</loc>
+        <lastmod>2026-05-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Статья: Отношения -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-relations.html</loc>
+        <lastmod>2026-05-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
 </urlset>
