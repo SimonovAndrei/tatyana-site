@@ -83,4 +83,12 @@
         <priority>0.7</priority>
     </url>
 
+    <!-- Статья: Панические атаки -->
+    <url>
+        <loc>https://tatianayurieva.ru/article-panic-attack-help.html</loc>
+        <lastmod>2026-07-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
 </urlset>
