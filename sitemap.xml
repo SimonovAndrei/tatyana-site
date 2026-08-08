@@ -99,4 +99,27 @@
         <priority>0.7</priority>
     </url>
 
+        <!-- Юридическая информация -->
+
+    <url>
+        <loc>https://tatianayurieva.ru/legal/privacy.html</loc>
+        <lastmod>2026-08-08</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://tatianayurieva.ru/legal/consent.html</loc>
+        <lastmod>2026-08-08</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <url>
+        <loc>https://tatianayurieva.ru/legal/cookies.html</loc>
+        <lastmod>2026-08-08</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
 </urlset>
